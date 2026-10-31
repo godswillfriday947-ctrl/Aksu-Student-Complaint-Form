@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Complaint-AKWA IBOM STATE UNIVERSITY Student Complaint</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<header class="header">
+    <div class="log">
+        <img src="img/aksu-logo.png" alt="">
+   <div>
+     <h2>AKWA IBOM STATE UNIVERSITY</h2>
+    <p>Student Complaint System</p>
+   </div>
+   </div>
+   <nav>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="complaints.html">Submit Complaints</a>
+    <a href="complain2.html">My Complaint</a>
+    <a href="index.html">Logout</a>
+</nav>
+</header>
+<main class="complaint-page">
+        <div class="complaint-heading">
+            <span class="title">SUBMIT A COMPLAINT</span>
+            <h1>Tell Us About Your Problem</h1>
+            <p>Provide the details of your complaint so it can be reviewed by the appropriate University department</p>
+        </div>
+    <div class="complaint-container">
+        <form id="complaint-form">
+            <div class="form-group">
+                <label for="title">Complaint Title</label>
+                    <input type="text" id="title" placeholder="Enter the title of Your Complaints" required>
+            </div>
+             <div class="form-group">
+                <label for="category">Complaint Category</label>
+                <select  id="category" required>
+                    <option value="">Select Category</option>
+                <option value="Hostel">Hostel</option>
+                <option value="Academic">Academic</option>
+                <option value="School Fees">School Fees</option>
+                <option value="Facilties">Facilties</option>
+                <option value="Course Registration">Course Registration</option>
+                <option value="Other">Other</option>        
+                </select>
+                </div>
+            <div class="form-group">
+                <label for="decription">Complait</label>
+                <textarea  id="description" rows="10" placeholder="describe your complaint in detail.." required></textarea>
+            </div>
+            <button type="submit" class="complaint-btn">
+             Submit Complait
+            </button>
+        </form>
+    </div>
+</main>
+ <footer>
+    <h3>AKWA IBOM STATE UNIVERSITY Student Complaint Management System </h3>
+    <p>&copy; 2026 AKWA IBOM STATE UNIVERSITY. All rights reserved.</p>
+</footer>
+<script src="student.js"></script>
+</body>
+</html>
