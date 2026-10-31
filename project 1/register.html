@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register- AKWA IBOM STATE UNIVERSITY Student Complaint</title>
+</head>
+<link rel="stylesheet" href="/home.css">
+<body>
+    <header class="header">
+        <div class="log">
+            <img src="/img/aksu-logo.png" alt="">
+        <div>
+            <h2>AKWA IBOM STATE UNIVERSITY</h2>
+        <p>Student Complaint System</p>
+        </div>
+        </div>
+        <nav>
+            <a href="/home.html">Home</a>
+            <a href="#">About</a>
+            <a href="/login.html">Login</a>
+            <a href="/register.html">Register</a>
+        </nav>
+    </header>
+    <section class="register-sect">
+        <div class="register-cont">
+        <div class="register-hea">
+            <h1>Create Student Account</h1>
+            <p>Register to Submit and Track Complaints</p>
+        </div>
+        <form>
+           <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="Enter your full name" required>
+           </div> 
+            <div class="form-group">
+                <label for="Matricnumber">Matric Number</label>
+                <input type="text" id="Matricnumber" placeholder="Enter your Matric Number" autocomplete="off"  required>
+            </div>
+             <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your Phone Number" autocomplete="tel"  required>
+             </div>
+              <div class="form-group">
+                <label for="emailaddress">Email Address</label>
+                <input type="email"  id="emailaddress" placeholder="Enter your Email Address" autocomplete="email" required>
+              </div>
+               <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" autocomplete="new-password" required>
+               </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="confirm your password" required>
+                </div>
+                <button type="submit" class="register-b">
+                 Create Account
+                </button>
+                <p class="Login-link">
+                    Already have an account?
+                    <a href="/login.html">Login here</a>
+                </p>
+        </form>
+        </div>
+    </section>
+    <footer>
+         <h3>AKWA IBOM STATE UNIVERSITY Student Complaint Management System </h3>
+          <p>&copy; 2026 AKWA IBOM STATE UNIVERSITY. All rights reserved.</p>
+    </footer>
+    <script src="/register.js"></script>
+</body>
+</html>

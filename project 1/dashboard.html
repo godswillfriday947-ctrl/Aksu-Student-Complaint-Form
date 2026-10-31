@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student dashboard-AKWA IBOM STATE UNIVERSITY Student Complaint</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <header class="header">
+    <div class="log">
+        <img src="/img/aksu-logo.png" alt="">
+   <div>
+     <h2>AKWA IBOM STATE UNIVERSITY</h2>
+    <p>Student Complaint System</p>
+   </div>
+   </div>
+   <nav>
+    <a href="/dashboard.html">Dashboard</a>
+    <a href="/complaints.html">submit Complaint</a>
+    <a href="/complain2.html">my complaints</a>
+    <a href="/home.html">Logout</a>
+   </nav>
+   </header>
+   <main class="dashboard">
+    <div class="dashboard-heading">
+        <span class="title">
+        STUDENT DASHBOARD
+        </span>
+        <h1>
+            Welcome, Student
+        </h1>
+        <p>manage your complaints and track thier progress.</p>
+    </div>
+    <div class="dashboard-stats">
+        <div class="stat-card">
+            <h3>Total Complaints</h3>
+            <strong>3</strong>
+        </div>
+         <div class="stat-card">
+            <h3>In Progress</h3>
+            <strong>1</strong>
+
+        </div>
+         <div class="stat-card">
+            <h3>Resolved</h3>
+            <strong>1</strong>
+        </div>
+    </div>
+    <section class="recent-complaints">
+        <div class="section-header">
+            <h2>Recent Complaints</h2>
+            <a href="#">view all</a>
+        </div>
+        <div class="complaint-table">
+        <div class="table-row 
+        table-heading">
+            <span>Complaints</span>
+         <span>Date</span>
+          <span>Status</span>  
+        </div>
+         <div class="table-row">
+         <span>Hostel Maintenance Issue</span>         
+         <span>24 oct 2026</span>
+         <span class="status pending">pending</span>
+         </div>
+        <div class="table-row">
+        <span>Course Registration Issue</span>
+        <span>20 Oct 2026</span>
+        <span class="status progress">In Progress</span>            
+        </div>
+        <div class="table-row">
+           <span>Student ID Card Issue</span>
+          <span>15 oct 2026</span> 
+          <span class="status resolved">Resolved</span>             
+        </div>
+        </div>
+    </section>
+    <section class="quick-action">
+     <h2>
+        Need to report a problem?
+     </h2>
+     <p>
+        Submit a new complaint and let the appropriate University Know about the issue.
+     </p>
+     <a href="/complaints.html" class="prime">Submit a complaint</a>
+    </section>
+    </main>
+    <footer>
+    <h3>AKWA IBOM STATE UNIVERSITY Student Complaint Management System </h3>
+    <p>&copy; 2026 AKWA IBOM STATE UNIVERSITY. All rights reserved.</p>
+</footer>
+   
+   <script src="/student.js"></script>
+</body>
+</html>
